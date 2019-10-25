@@ -8,7 +8,7 @@ public interface ProductoDAO {
 
 	public Long altaDeProducto(Producto producto);
 
-	public void actaulizarProducto(Producto producto);
+	public void actualizarProducto(Producto producto);
 
 	public Producto buscarProductoPorId(Long id);
 

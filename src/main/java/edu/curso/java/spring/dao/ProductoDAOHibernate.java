@@ -23,7 +23,7 @@ public class ProductoDAOHibernate implements ProductoDAO {
 		return producto.getId();
 	}
 
-	public void actaulizarProducto(Producto producto) {
+	public void actualizarProducto(Producto producto) {
 		// TODO Auto-generated method stub
 		sf.getCurrentSession().update(producto);
 	}
